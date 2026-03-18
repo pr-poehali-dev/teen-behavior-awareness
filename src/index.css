@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --bg: #0f1923;
+  --surface: #131f2e;
+  --card-bg: #1a2840;
+  --border: rgba(255, 255, 255, 0.08);
+  --accent: #38b2ac;
+  --accent-hover: #2c9490;
+  --text-primary: #f0f4f8;
+  --text-secondary: #a8bdd0;
+  --text-muted: #5c7a96;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
